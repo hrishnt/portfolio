@@ -11,6 +11,7 @@ import scss from "../assests/scss.png";
 import reactJS from "../assests/ReactJS.jpg";
 import canva from "../assests/canva.jpeg";
 import C from "../assests/C.webp";
+import Linux from "../assests/linux.png"
 
 import React from 'react'
 
@@ -33,6 +34,7 @@ const Skills = () => {
         <a href=""><img src={figma} className="distance" alt="FIGMA" /></a>
         <a href=""><img src={nodejs} className="distance" alt="NODEJS" /></a>
         <a href=""><img src={C} className="distance" alt="C" /></a>
+        <a href=""><img src={Linux} className="distance" alt="Linux" /></a>
       </div>
     </div>
   )
